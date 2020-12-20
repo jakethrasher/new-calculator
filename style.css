@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+
+button{
+    border: none;
+    height: 30px ;
+    width:  30px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+#add-button{
+    background-color: lightblue;
+}
+#subtract-button{
+    background-color: pink ;
+}
+#multiply-button{
+    background-color: yellow;
+}
+#divide-button{
+    background-color: lavender ;
+}
+#result-display{
+    font-size: 32px;
+}
