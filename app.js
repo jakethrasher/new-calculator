@@ -21,6 +21,10 @@ for(let button of buttonsArray){
             result= num1 * num2;
         }else if(button.id==="divide-button"){
             result= num1 / num2;
+        }else if(button.id==='clear-button'){
+            input1.value='';
+            input2.value='';
+            result='';
         }
         resultDisplay.innerHTML = result;
 
