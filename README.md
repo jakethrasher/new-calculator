@@ -1,1 +1,1 @@
-# new-calculator
+# calculator
